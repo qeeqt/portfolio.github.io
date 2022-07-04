@@ -1,0 +1,31 @@
+.formDivElement {
+    margin-bottom: 10px;
+
+}
+
+.rs-form-control-label {
+    font-size: 20px;
+    border-radius: 25px;
+
+}
+
+#submitButton {
+    font-weight: 400;
+    border-radius: 25px;
+    background-color: rgba(24, 125, 207, 0.66);
+    padding: 3px 30px;
+    margin-top: 25px;
+}
+
+.rs-form-error-message {
+    font-size: 16px;
+    color: red;
+}
+
+.rs-form-control-message-wrapper {
+    font-size: 10px;
+}
+
+.rs-input {
+    border-radius: 10px;
+}

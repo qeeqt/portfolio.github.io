@@ -1,0 +1,55 @@
+#nameText {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-left: 160%;
+}
+
+#myInfoText {
+    font-size: 30px;
+    color: darkkhaki;
+
+}
+
+#wholeDiv {
+    display: block;
+}
+
+#referenceDiv {
+    color: aliceblue;
+    height: 150px;
+    font-size: 1px;
+    margin-left: 3vh;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+}
+
+#infoDiv {
+
+    background-color: rgb(109, 192, 240);
+    display: flex;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+
+}
+
+#myInfo {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+#photodiv {
+    background-image: url("../../photos/35489ae8-7434-4b5d-89b5-ac84508e0adb.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-left: 20%;
+}
