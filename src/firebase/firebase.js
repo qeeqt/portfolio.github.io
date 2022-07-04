@@ -10,12 +10,13 @@ import { getStorage } from "firebase/storage"
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyA35RdYwz0gaBgdkvWJg5inOL9USXcocEM",
-    authDomain: "logos-final.firebaseapp.com",
-    projectId: "logos-final",
-    storageBucket: "logos-final.appspot.com",
-    messagingSenderId: "709852912575",
-    appId: "1:709852912575:web:24ce2ccca0cc9c27751f0a"
+    apiKey: "AIzaSyBGqANhNl0lHcoFow0X5Y6CHBfQZ9gyJYw", 
+    authDomain: "base-b1494.firebaseapp.com", 
+    databaseURL: "https://base-b1494-default-rtdb.firebaseio.com", 
+    projectId: "base-b1494", 
+    storageBucket: "base-b1494.appspot.com", 
+    messagingSenderId: "1074388766466", 
+    appId: "1:1074388766466:web:082d0b1b71959fc649bc1b"
 };
 
 const app = initializeApp(firebaseConfig)
@@ -24,15 +25,8 @@ const db = getFirestore()
 
 export default db;
 
-const colRef = collection(db, "user")
+const colRef = collection(db, "info")
 
-// onSnapshot(colRef, (snapshot) => {
-//     let myInfo = []
-//     snapshot.docs.forEach((doc) => {
-//         myInfo.push({ ...doc.data(), id: doc.id })
-//     })
-//     console.log(myInfo)
-// })
 
 export const docRef = doc(db, "info", "sxgzdh1ag9Hu3Ulrxl6K")
 
